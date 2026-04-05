@@ -1,7 +1,7 @@
 # Daybreak
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sthetix/Daybreak/main/images/preview.jpg" alt="Daybreak Preview">
+  <img src="https://raw.githubusercontent.com/sthetix/Daybreak/master/images/preview.jpg" alt="Daybreak Preview">
 </p>
 
 
