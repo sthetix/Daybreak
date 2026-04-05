@@ -1,0 +1,46 @@
+# Nintendo Switch Homebrew - Daybreak
+
+# Build artifacts
+build/
+release/
+romfs/
+*.o
+*.a
+*.d
+
+# Compiled binaries
+*.elf
+*.nro
+*.nacp
+*.nsp
+*.xci
+*.nca
+
+# Compressed archives
+*.rar
+*.zip
+*.7z
+*.tar.gz
+
+# DevKitPro / libnx
+*.pbx1
+*.pbx2
+*.pbx3
+*.pbx4
+*.pbx5
+*.pbx6
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Custom
+*.log
