@@ -4,11 +4,8 @@
   <img src="https://raw.githubusercontent.com/sthetix/Daybreak/main/images/preview.jpg" alt="Daybreak Preview">
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sthetix/Daybreak/main/images/option.jpg" alt="Daybreak Options">
-</p>
 
-Daybreak is a modded version of the Daybreak firmware modding tool, originally based on the Atmosphere-NX repository. This project modifies the original Daybreak by customizing its color scheme and branding.
+This is a modded version of the Daybreak firmware modding tool, originally based on the Atmosphere-NX repository. This project simplifies the original Daybreak by removing unnecessary prompts.
 
 ## Simplified Workflow (5 Steps)
 
@@ -22,10 +19,9 @@ This version features a streamlined update process with fewer prompts for a safe
 
 ## Key Modifications
 
-- Custom color scheme and branding
-- Removed FAT32-only filesystem option
-- Forced to use FAT32+ExFAT for better compatibility with larger files
 - Simplified 5-step workflow (2 prompts removed for safer user experience)
+- Removed "reset to factory settings" option - preserves console condition
+- Removed FAT32/FAT32+ExFAT selection - automatically uses FAT32+ExFAT for better compatibility with larger files
 
 ## Building
 
@@ -34,12 +30,12 @@ Ensure you have the DevKit Pro development environment set up with libnx and ass
 To build, run:
 
 ```
-make
+make release
 ```
 
 ## Usage
 
-Place the resulting `daybreak.nro` file on your Nintendo Switch's SD card and launch it through your preferred homebrew launcher (such as Title Override Menu or hbmenu).
+Extract the resulting zip file on your Nintendo Switch's SD card root and launch it through the hbmenu.
 
 ## Credits
 
